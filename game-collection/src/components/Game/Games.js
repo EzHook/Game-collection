@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import axios from 'axios';
 import Game from './Game';
 import './Game.css';
-const URL = "http://localhost:5000/games";
+const URL = "https://game-collection-backend.onrender.com/games";
 
 const fetchHandler = async () => {
   return await axios.get(URL).then((res) => res.data)
