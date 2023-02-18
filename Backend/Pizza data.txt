@@ -1,0 +1,79 @@
+[{
+   "name":"MARGHERITA",
+    "variants":["small", "medium", "large"],
+    "prices":[{
+                "small": 120,
+                "medium": 250,
+                "large": 340
+            },
+        ],
+        "category":"Veg",
+        "image":"https://www.dominos.co.in/files/items/Margherit.jpg",
+        "description":"A hugely popular margherita, with a deliciously tangy single cheese topping",
+},
+{
+    "name":"FARM HOUSE",
+    "variants":["small", "medium", "large"],
+    "prices":[{
+                "small": 200,
+                "medium": 350,
+                "large": 480
+            },
+        ],
+        "category":"Veg",
+        "image":"https://www.dominos.co.in/files/items/Farmhouse.jpg",
+        "description":"A pizza that goes ballistic on veggies! Check out this mouth watering overload of crunchy, crisp capsicum, succulent mushrooms and fresh tomatoes",
+},
+{
+    "name":"MEXICAN GREEN WAVE",
+    "variants":["small", "medium", "large"],
+    "prices":[{
+                "small": 180,
+                "medium": 240,
+                "large": 380
+            },
+        ],
+        "category":"Veg",
+        "image":"https://www.dominos.co.in/files/items/Mexican_Green_Wave.jpg",
+        "description":"A pizza loaded with crunchy onions, crisp capsicum, juicy tomatoes and jalapeno with a liberal sprinkling of exotic Mexican herbs.",
+},
+{
+    "name":"PEPPY PANEER",
+    "variants":["small", "medium", "large"],
+    "prices":[{
+                "small": 180,
+                "medium": 250,
+                "large": 400
+            },
+        ],
+        "category":"Veg",
+        "image":"https://www.dominos.co.in/files/items/Peppy_Paneer.jpg",
+        "description":"Chunky paneer with crisp capsicum and spicy red pepper - quite a mouthful!.",
+},
+{
+    "name":"PEPPER BARBECUE & ONION",
+    "variants":["small", "medium", "large"],
+    "prices":[{
+                "small": 220,
+                "medium": 310,
+                "large": 480
+            },
+        ],
+        "category":"Non-Veg",
+        "image":"https://www.dominos.co.in/files/items/Pepper_Barbeque_&_Onion.jpg",
+        "description":"Pepper Barbecue Chicken I Onion",
+    },
+{
+    "name":"INDI TANDOORI PANEER",
+    "variants":["small", "medium", "large"],
+    "prices":[{
+                "small": 200,
+                "medium": 310,
+                "large": 450
+            },
+        ],
+        "category":"Veg",
+        "image":"https://www.dominos.co.in/files/items/IndianTandooriPaneer.jpg",
+        "description":"It is hot. It is spicy. It is oh-so-Indian. Tandoori paneer with capsicum I red paprika I mint mayo",
+},
+]

@@ -1,0 +1,8 @@
+
+.about {
+    display: flex;
+    align-items: left;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: left;
+}
