@@ -22,7 +22,7 @@ const AddGame = () => {
   };
 
   const sendRequest = async() => {
-  await axios.post("http://localhost:5000/games", {
+  await axios.post("https://game-collection-backend.onrender.com/games", {
       name: String(inputs.name),
       developer: String(inputs.developer),
       description: String(inputs.description),
