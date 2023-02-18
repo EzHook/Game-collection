@@ -11,7 +11,7 @@ const GameDetail = () => {
 
     useEffect(() => {
         const fetchHandler = async() =>{
-        await axios.get(`http://localhost:5000/games/${id}`)
+        await axios.get(`https://game-collection-backend.onrender.com/games/${id}`)
         .then((res) => res.data)
         .then((data) => setInputs(data.game));
         };
@@ -19,7 +19,7 @@ const GameDetail = () => {
     }, [id])
 
     const sendRequest = async() => {
-        await axios.put(`http://localhost:5000/games/${id}`,{
+        await axios.put(`https://game-collection-backend.onrender.com/games/${id}`,{
             name: String(inputs.name),
       developer: String(inputs.developer),
       description: String(inputs.description),
